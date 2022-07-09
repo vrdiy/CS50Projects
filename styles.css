@@ -1,0 +1,22 @@
+.AlternateSearch{
+    text-align: right;
+    font-family: 'Segoe UI';
+}
+.SearchBar{
+    text-align: center;
+    margin-top: 20%;
+    
+    
+}
+.AdvancedSearchBars{
+    text-align: left;
+    margin-left: 5%;
+    
+   
+}
+#SearchBox{
+    border: 2px solid gray;
+    font-size: 30px;
+    width: 500px;
+    border-radius: 7px;
+}
