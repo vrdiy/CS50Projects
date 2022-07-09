@@ -1,22 +1,53 @@
-.AlternateSearch{
+.AlternateSearchOptions{
+    border-bottom: 1px solid gray;
     text-align: right;
     font-family: 'Segoe UI';
 }
 .SearchBar{
     text-align: center;
-    margin-top: 20%;
+    margin-top: 10%;
     
     
-}
-.AdvancedSearchBars{
-    text-align: left;
-    margin-left: 5%;
-    
-   
 }
 #SearchBox{
     border: 2px solid gray;
     font-size: 30px;
     width: 500px;
     border-radius: 7px;
+}
+.AdvancedSearchBoxes{
+    border: 2px solid gray;
+    font-size: 24px;
+    width: 350px;
+    border-radius: 5px;
+}
+tr{
+    border: 2px solid gray;
+    font-size: 22px;
+    width: 350px;
+    border-radius: 5px;
+    text-align: left;
+    
+    font-family: 'Segoe UI';
+}
+.SubmitButton{
+    font-size: 20px;
+    width: auto;
+    padding: 5px;
+    height: 40px;
+    margin: 10px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+#AdvancedButton{
+    color: white;
+    background-color: lightskyblue;
+}
+.footer{
+    position: fixed;
+    bottom: 3%;
+    right: 2%;
+    text-align: center;
+
 }

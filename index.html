@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <div class="AlternateSearch">
+        <div class="AlternateSearchOptions">
             <a href="imagesearch.html">Image Search</a>
             <a href="advancedsearch.html">Advanced Search</a>
             
@@ -15,9 +15,15 @@
             <form action="https://www.google.com/search">
                 <input id="SearchBox" type="text" name="q">
                 <div>
-                <input style="font-size: 20px;width: auto; padding: 10px; height: 40px;margin: 30px; text-align: center; border: 2px solid white; border-radius: 8px;" type="submit" value="Google Search">
+                <input class="SubmitButton" type="submit" value="Google Search">
+                
+                <input class="SubmitButton" type="submit" name="btnI" value="I'm Feeling Lucky">
                 </div>
             </form>
+           
         </div>
+        <footer class="footer">
+            <a href="https://github.com/vrdiy/CS50Projects/"><img src="GitHub-Mark-32px.png"></a>
+        </footer>
     </body>
 </html>
